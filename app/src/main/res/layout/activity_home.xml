@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.HomeActivity">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        app:lottie_rawRes="@raw/newspaper"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_below="@id/animationView"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center|center_vertical"
+            android:id="@+id/textview_home"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:background="@drawable/shape_sample"
+            android:layout_width="250dp"
+            android:layout_height="40sp"
+            android:text="Read Latest Newspaper"
+            android:textColor="#FFD600"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/recyclerview_home_categories"
+            android:layout_below="@id/textview_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

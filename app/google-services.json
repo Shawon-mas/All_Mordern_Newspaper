@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "350336562144",
+    "project_id": "all-modern-newspaper",
+    "storage_bucket": "all-modern-newspaper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350336562144:android:2099882c4415de9c827185",
+        "android_client_info": {
+          "package_name": "com.allnewspaper.allmordernnewspaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350336562144-svii7l0r3frja8jsq25uc5cb9min93sp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQzgT05SPrsi8Aa65Ldl5NwPOxmdHt-rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350336562144-svii7l0r3frja8jsq25uc5cb9min93sp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

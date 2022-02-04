@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">All Mordern Newspaper</string>
+    <string name="add_sdk">ca-app-pub-1905179364235619~8473354992</string>
+    <string name="banner_ad">ca-app-pub-1905179364235619/8325003578</string>
+    <string name="intertial_ad">ca-app-pub-1905179364235619~8473354992r</string>
+
+
+    <string-array name="BanglaLink">
+        <item>https://www.prothomalo.com/</item>
+        <item>https://samakal.com/</item>
+        <item>https://www.kalerkantho.com/</item>
+        <item>https://www.dailynayadiganta.com/</item>
+        <item>https://www.ittefaq.com.bd/</item>
+        <item>https://www.bd-pratidin.com/</item>
+        <item>https://www.jugantor.com/</item>
+        <item>https://www.dainikamadershomoy.com/</item>
+        <item>https://www.manobkantha.com.bd/</item>
+        <item>https://www.jaijaidinbd.com/</item>
+
+    </string-array>
+    <string-array name="EnglishLink">
+        <item>https://www.thedailystar.net/</item>
+        <item>https://bdnews24.com/</item>
+        <item>https://thefinancialexpress.com.bd/</item>
+        <item>https://www.thedailynewnation.com/</item>
+        <item>https://www.daily-sun.com/</item>
+        <item>https://www.dhakatribune.com/</item>
+        <item>https://www.observerbd.com/</item>
+        <item>https://www.theindependentbd.com/</item>
+        <item>http://newagebd.net/</item>
+        <item>http://thebangladeshtoday.com/</item>
+
+    </string-array>
+    <string-array name="InternationalLink">
+        <item>https://www.nytimes.com/</item>
+        <item>https://www.theguardian.com/international</item>
+        <item>https://www.themoscowtimes.com/</item>
+        <item>https://www.japantimes.co.jp/</item>
+        <item>https://www.wsj.com/?mod=nav_top_section</item>
+        <item>https://www.thetimes.co.uk/</item>
+        <item>https://www.thestar.com/</item>
+        <item>https://www.bangkokpost.com/</item>
+        <item>https://www.theglobeandmail.com/</item>
+        <item>https://www.observerbd.com/</item>
+
+    </string-array>
+    <string-array name="OnlineLink">
+        <item>https://www.bbc.com/bengali</item>
+        <item>https://www.banglatribune.com/</item>
+        <item>https://www.jagonews24.com/</item>
+        <item>https://www.banglanews24.com/</item>
+        <item>https://www.somoynews.tv/</item>
+        <item>https://ekattor.tv/</item>
+        <item>https://www.rtvonline.com/</item>
+        <item>https://www.independent24.com/</item>
+        <item>https://www.jamuna.tv/</item>
+        <item>https://www.channel24bd.tv/</item>
+
+    </string-array>
+</resources>
